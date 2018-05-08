@@ -33,7 +33,7 @@ namespace Lab7
                 Console.WriteLine();
             }
             Console.WriteLine();
-            Rearrangement rearrangement = new Rearrangement();
+            Rearranger rearrangement = new Rearranger();
             List<List<int>> array2 = rearrangement.Rearrange(array);
             for (int i = 0; i < n; i++)
             {
